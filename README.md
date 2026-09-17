@@ -226,6 +226,10 @@ rake test      # minitest
 rubocop
 ```
 
+The RMS reference lives behind a merchant-portal login, so there is a
+harvesting workflow for keeping the gem honest against it:
+`skills/rms-docs-harvest/SKILL.md`.
+
 ## License and standing
 
 MIT. See [LICENSE](LICENSE).
