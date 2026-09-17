@@ -1,0 +1,12 @@
+/.bundle/
+/vendor/bundle/
+/pkg/
+/doc/
+/tmp/
+*.gem
+Gemfile.lock
+.DS_Store
+
+# The host app's root .gitignore excludes .rubocop.yml everywhere; this gem
+# ships its own, and CI runs rubocop against it.
+!.rubocop.yml
