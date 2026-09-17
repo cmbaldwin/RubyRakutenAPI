@@ -226,8 +226,20 @@ rake test      # minitest
 rubocop
 ```
 
-## License
+## License and standing
 
-MIT. See [MIT-LICENSE](MIT-LICENSE).
+MIT. See [LICENSE](LICENSE).
 
-This is an unofficial client and is not affiliated with or endorsed by Rakuten Group, Inc.
+This is an unofficial client and is not affiliated with, endorsed by, or
+reviewed by Rakuten Group, Inc. The RMS WEB SERVICE API, its specification
+and its documentation belong to Rakuten — for the authoritative reference,
+log in to the RMS merchant portal (店舗様向け情報・サービス → WEB API).
+非公式のクライアントであり、楽天グループとの提携・承認・監修はありません。
+
+Using the API requires accepting the RMS API terms of use in the merchant
+portal ([1]サービス → [1-2] 申込、利用規約確認) and your own merchant
+credentials (`serviceSecret` / `licenseKey`). This gem only speaks the
+protocol on your behalf: it bundles no credentials, enforces RMS's published
+1 request/second guideline by default, and never scrapes anything. Questions
+about the API itself belong to Rakuten; questions about this gem belong here,
+as issues.
